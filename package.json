@@ -7,6 +7,10 @@
   "scripts": {
     "start": "node ."
   },
+  "engines": {
+    "node": "12.19.0",
+    "npm": "6.14.8"
+  },
   "author": "Guylian Cox <hello@guylian.me>",
   "license": "MIT",
   "dependencies": {
