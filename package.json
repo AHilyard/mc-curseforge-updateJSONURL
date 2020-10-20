@@ -1,0 +1,18 @@
+{
+  "name": "@ephys/mc-curse-update-checker",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Generate Forge Version Checker JSON files from CurseForge projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Guylian Cox <hello@guylian.me>",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "^9.4.0",
+    "joi": "^17.2.1",
+    "koa": "^2.13.0",
+    "node-fetch": "^2.6.1"
+  }
+}
