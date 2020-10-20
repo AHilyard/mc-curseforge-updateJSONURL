@@ -5,7 +5,8 @@
   "description": "Generate Forge Version Checker JSON files from CurseForge projects",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "start:dev": "nodemon ."
   },
   "engines": {
     "node": "12.19.0",
@@ -14,9 +15,14 @@
   "author": "Guylian Cox <hello@guylian.me>",
   "license": "MIT",
   "dependencies": {
+    "@iarna/toml": "^2.2.5",
     "@koa/router": "^9.4.0",
     "joi": "^17.2.1",
+    "jszip": "^3.5.0",
     "koa": "^2.13.0",
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
