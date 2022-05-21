@@ -122,14 +122,14 @@ async function getMod(modId)
 		return null;
 	}
 
-	return response.json().data;
+	return response.json().then(json => json.data);
 }
 
 async function getFiles(modId)
 {
 	const response = await fetch(`${baseApiUri}/v1/mods/${encodeURIComponent(modId)}/files`)
 
-	return response.json().data;
+	return response.json().then(json => json.data);
 }
 
 /*
