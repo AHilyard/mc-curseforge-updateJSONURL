@@ -6,8 +6,6 @@ const Koa = require('koa');
 const Router = require('@koa/router');
 const fetch = require('node-fetch');
 const joi = require('joi');
-const Zip = require('jszip');
-const Toml = require('@iarna/toml');
 
 const modIdSchema = joi.number().positive().integer().label('modId');
 
