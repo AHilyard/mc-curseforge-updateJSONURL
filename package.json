@@ -1,7 +1,7 @@
 {
-  "name": "@ephys/mc-curse-update-checker",
+  "name": "@AHilyard/mc-curse-update-checker",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generate Forge Version Checker JSON files from CurseForge projects",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "node": "12.19.0",
     "npm": "6.14.8"
   },
-  "author": "Guylian Cox <hello@guylian.me>",
+  "author": "Anthony Hilyard",
   "license": "MIT",
   "dependencies": {
     "@iarna/toml": "^2.2.5",
